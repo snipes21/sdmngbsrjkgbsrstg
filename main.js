@@ -13,6 +13,7 @@ console.warn = () => {};
             numberOfShards: 1,
             botsPerShard: 30,
             categories: [
+                '67c5afb82304e29c074f5077',
                 '67c20cf835edd489d48652f8',
                 '67c235dd35edd489d4865758',            
                 '67c303231906bd75e52396a0',
