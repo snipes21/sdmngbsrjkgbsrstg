@@ -11,7 +11,7 @@ console.warn = () => {};
         await fnlb.start({
             apiToken: 'FNLB_Z8IF5--M5T5Q5GlIXDb1qnUBDq6WP1oo0C2tPyPYdj7XcJja4v0bcNzbk68.ZNEB8PklBkyoNngMRmw_UQ',
             numberOfShards: 1,
-            botsPerShard: 200,
+            botsPerShard: 100,
             categories: [
                 '67c2fd571906bd75e5239684',
                 '67c20cf835edd489d48652f8',
