@@ -1,4 +1,4 @@
-// 🔇 Suppress typical log output only (DO NOT override stdout.write)
+
 console.log = () => {};
 console.error = () => {};
 console.warn = () => {};
@@ -20,7 +20,7 @@ console.warn = () => {};
     }
 
     async function restartFNLB() {
-        // console.log suppressed above — this won't show anything
+    
         await fnlb.stop();
         await startFNLB();
     }
